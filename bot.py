@@ -1,7 +1,7 @@
 import telebot
 
-# هادا هو التوكن الجديد تاعك واجد
-TOKEN = "8606111276:AAHjh2KgAtjt8dfDn-vcxUJM9JslmynaWwE"
+# التوكن الجديد والنهائي
+TOKEN = "8606111276:AAGBJtV3HUhGUI2pm0EVR16A8sa8VMEFvsQ"
 bot = telebot.TeleBot(TOKEN)
 
 # الكلمات الممنوعة
