@@ -1,10 +1,11 @@
 import telebot
 
+# هادا هو التوكن الجديد تاعك واجد
 TOKEN = "8606111276:AAHjh2KgAtjt8dfDn-vcxUJM9JslmynaWwE"
 bot = telebot.TeleBot(TOKEN)
 
 # الكلمات الممنوعة
-banned_words = ['W9', 'قود', 'استثمار', 'ارباح', 'فلوس', 'اربح', 'منصة', 'تداول', 'كلمني خاص', 't.me/']
+banned_words = ['ارباح', 'أرباح', 'استثمار', 'منصة', 'تداول', 'فلوس', 't.me/']
 
 @bot.message_handler(func=lambda message: True)
 def clean_group(message):
