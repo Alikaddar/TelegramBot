@@ -21,3 +21,4 @@ def clean_group(message):
 
 print("Bot is ready! 🛡️")
 bot.infinity_polling()
+
