@@ -38,5 +38,5 @@ def run_server():
 if __name__ == "__main__":
     server_thread = Thread(target=run_server)
     server_thread.start()
-    bot.polling(non_stop=True)
+    bot.polling(none_stop=True)
     
